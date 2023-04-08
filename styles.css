@@ -2,3 +2,62 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+header {
+    background-color: #1F2937;
+    padding: 1rem 9%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    font-size: 24px;
+    color: #E5E7EB;
+    margin-right: auto;
+}
+
+a,
+.caption > p {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.caption > button {
+    background-color: hsl(212, 85%, 55%);
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 8px 40px;
+    border: hsl(212, 85%, 55%) solid 1px;
+    border-radius: 10%;
+    margin-top: 1rem;
+    
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+
+    max-height: 200px;
+}
