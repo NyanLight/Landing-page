@@ -139,6 +139,32 @@ h2 {
     font-weight: lighter;
     font-style: italic;
     text-align: left;
-    
+
+}
+
+.blueblock_section {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blueblock {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    padding: 2rem 6rem;
+    background-color: hsl(212, 85%, 55%);
+    color: #E5E7EB;
+    border-radius: 2%;
+}
+
+.second_button {
+    padding: 0.5rem 2rem;
+    background-color: hsl(212, 85%, 55%);
+    color: #F9FAF8;
+    border: 2px solid #E5E7EB;
+    border-radius: 10%;
 }
 
