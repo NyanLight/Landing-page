@@ -1,13 +1,17 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
+
+
 
 
 header {
     background-color: #1F2937;
     padding: 1.5rem 12%;
-    height: 30rem; 
+    width: 100%;
 }
 
 h1 {
@@ -56,19 +60,22 @@ a,
 
 .hero {
     display: flex;
-    justify-content: space-between
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 img {
 
     max-height: 200px;
-    width: 500px;
+    max-width: 500px;
 }
 
 h2 {
     font-size: 36px;
     margin-bottom: 2rem;
     padding-top: 2rem;
+    text-align: center;
 }
 
 .random {
@@ -79,8 +86,10 @@ h2 {
 }
 
 .blocks {
+    justify-content: center;
     display: flex;
     gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .block {
@@ -115,9 +124,9 @@ h2 {
 .quote_block {
     display: flex;
     flex-direction: column;
-    width: 900px;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
-    
 }
 
 .quote,
@@ -128,7 +137,6 @@ h2 {
 
 .author {
     font-weight: bold;
-    align-self: flex-end;
     font-size: 1.2rem;
 
 }
@@ -139,6 +147,7 @@ h2 {
     font-weight: lighter;
     font-style: italic;
     text-align: left;
+    max-width: 50%;
 
 }
 
