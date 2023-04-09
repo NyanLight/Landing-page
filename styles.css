@@ -6,7 +6,8 @@
 
 header {
     background-color: #1F2937;
-    padding: 1rem 9%;
+    padding: 1.5rem 12%;
+    height: 30rem; 
 }
 
 h1 {
@@ -18,7 +19,8 @@ h1 {
 
 .logo {
     font-size: 24px;
-    color: #E5E7EB;
+    font-weight: 600;
+    color: #F9FAF8;
     margin-right: auto;
 }
 
@@ -54,10 +56,47 @@ a,
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 img {
 
     max-height: 200px;
+    width: 500px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.blocks {
+    display: flex;
+    gap: 3rem;
+}
+
+.block {
+    
+    height: 210px;
+    width: 180px;
+}
+
+.shape {
+    height: 180px;
+    width: 180px;
+    border: 3px solid rgb(81, 119, 243);
+    border-radius: 15%;
+    margin-bottom: 0.7rem;
+}
+
+.undershape {
+    text-align: center;
 }
