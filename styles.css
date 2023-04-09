@@ -75,7 +75,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    margin-bottom: 4rem;
 }
 
 .blocks {
@@ -100,3 +100,45 @@ h2 {
 .undershape {
     text-align: center;
 }
+
+.quote_section {
+    background-color: #E5E7EB;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem auto;
+}
+
+.quote_block {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    gap: 1rem;
+    
+}
+
+.quote,
+.author{
+    display: block;
+    
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 1.2rem;
+
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
+    
+}
+
